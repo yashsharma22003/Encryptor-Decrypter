@@ -8,7 +8,7 @@ import {encryptObj, decryptObj} from "./scripts/EncryptedHashGenerator.js"
 app.use(express.json());
 app.use(cors())
 
-const mongoURI = "mongodb+srv://yashsharma22003:A4ekLdpcK6zirySj@cluster0.hgkrd.mongodb.net/EncryptionText?retryWrites=true&w=majority&appName=Cluster0";
+const mongoURI = "";
 
 const Db = async () => {
     try {
